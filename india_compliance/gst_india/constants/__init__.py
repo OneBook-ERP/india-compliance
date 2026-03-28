@@ -60,7 +60,7 @@ EXPORT_TYPES = (
     "WP",  # With Payment of Tax [1]
 )
 
-TAXABLE_GST_TREATMENTS = ("Taxable", "Zero-Rated")
+TAXABLE_GST_TREATMENTS = ("Taxable", "Zero-Rated", "Nil-Rated", "Exempted", "Non-GST")
 IMPORT_GST_CATEGORIES = ("Overseas", "SEZ")
 
 
