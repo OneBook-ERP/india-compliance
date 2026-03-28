@@ -702,8 +702,8 @@ class EInvoiceData(GSTTransactionData):
         self.item_list = []
 
         for item_details in self.get_all_item_details():
-            if item_details.get("gst_treatment") not in TAXABLE_GST_TREATMENTS:
-                continue
+            # if item_details.get("gst_treatment") not in TAXABLE_GST_TREATMENTS:
+            #     continue
 
             self.item_list.append(self.get_item_data(item_details))
 
